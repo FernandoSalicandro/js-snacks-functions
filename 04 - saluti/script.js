@@ -3,11 +3,22 @@
 const name = 'Mario';
 
 
+
+
 // Dichiara la funzione qui.
 
 
-// Invoca la funzione qui e stampa il risultato in console
+function salutaNome(stringa) {
 
+    let nome = stringa;
+    let message = `Ciao ${nome} !`;
+    console.log(message);
+    
+}
+
+// Invoca la funzione qui e stampa il risultato in console
+salutaNome(name);
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
+

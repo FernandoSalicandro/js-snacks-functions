@@ -43,6 +43,6 @@ function parolaCheIniziaConLettera(arrParole, lettera) {
 
 // Invoca la funzione qui e stampa il risultato in console
 
-parolaCheIniziaConLettera(names, "a");
+parolaCheIniziaConLettera(names, "l");
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
